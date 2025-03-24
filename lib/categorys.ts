@@ -83,3 +83,5 @@ export interface Category {
   path?: string;
   image?: string;
 }
+
+// Catagory
