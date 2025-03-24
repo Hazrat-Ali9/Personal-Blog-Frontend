@@ -35,7 +35,7 @@ const Navbar = () => {
     </nav>
   );
 };
-
+// Navbar Tsx
 export default Navbar;
 
 const Menus = () => {
