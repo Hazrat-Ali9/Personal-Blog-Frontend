@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-
+// Ts config 
 const nextConfig: NextConfig = {
   /* config options here */
   typescript: {
