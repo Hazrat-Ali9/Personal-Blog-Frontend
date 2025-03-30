@@ -9,7 +9,7 @@ export interface PostType {
   content: string;
   coverImage: string;
 }
-
+// posts
 export const recentPosts = [
   {
     title: "Understanding Dynamic Programming",
