@@ -3,7 +3,7 @@ import { PostType } from "@/lib/posts";
 import moment from "moment";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-
+// Recent Article tsx
 const RecentArticle = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
