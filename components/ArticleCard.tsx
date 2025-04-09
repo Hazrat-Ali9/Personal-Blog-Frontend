@@ -5,7 +5,7 @@ import { PostType } from "@/lib/posts";
 import moment from "moment";
 import Link from "next/link";
 import React from "react";
-
+// Article Card
 const ArticleCard = ({ post }: { post: PostType }) => {
   return (
     <article className="bg-gray-900 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow shadow-gray-800 flex lg:flex-row flex-col gap-x-7 items-center">
