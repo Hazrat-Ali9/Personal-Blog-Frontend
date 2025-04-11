@@ -102,7 +102,7 @@ export const likeOnComment = async (commentId: string, userId: string) => {
     throw error;
   }
 };
-
+// Comment js
 export const replyComment = async (commentId: string, data: any) => {
   try {
     const commentRef = doc(db, COMMENTS, commentId);
