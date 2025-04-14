@@ -7,7 +7,7 @@ import { getBlogs } from "@/lib/firebase/blogs";
 import { PostType } from "@/lib/posts";
 import SearchBar from "@/components/SearchBar";
 import Image from "next/image";
-
+// blogs Functions
 async function App() {
   const blogs: PostType[] = await getBlogs(6);
   return (
