@@ -1,5 +1,5 @@
 "use client";
-
+// Use Effect Suspense
 import React, { useEffect, Suspense } from "react";
 import BreadCrumb from "./_UI/BreadCrumb";
 import { useSearchParams } from "next/navigation";
