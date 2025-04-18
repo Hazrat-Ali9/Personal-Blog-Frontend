@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Read our terms and conditions for using Hazrat Ali Blogs Website",
 };
-
+// Page tsx 
 export default function TermsPage() {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-5">
