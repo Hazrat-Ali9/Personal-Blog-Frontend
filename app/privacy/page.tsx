@@ -131,3 +131,4 @@ export default function PrivacyPage() {
     </div>
   );
 }
+// Page tsx 
