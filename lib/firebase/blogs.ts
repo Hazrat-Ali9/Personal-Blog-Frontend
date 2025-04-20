@@ -62,6 +62,7 @@ export async function getBlogs(max?: number, lastDoc?: any): Promise<any> {
     throw error;
   }
 }
+// Blogs Uploaded data
 
 export async function getAllBlogs(): Promise<any> {
   try {
