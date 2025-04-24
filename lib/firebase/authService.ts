@@ -21,7 +21,7 @@ export const getLoggedInUser = () => {
     }
   });
 };
-
+// Auth Service
 // ✅ Sign Up
 export const signUp = async (email: string, password: string, name: string) => {
   try {
