@@ -44,3 +44,4 @@ export const recentPosts = [
     tags: []
   },
 ];
+// Posts Update
