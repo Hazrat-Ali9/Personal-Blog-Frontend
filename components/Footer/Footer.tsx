@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React from 'react';
-
+// Footer jsx
 const Footer = () => {
     return (
         <footer className="bg-slate-900 text-white py-8">
