@@ -2,7 +2,7 @@
 import { getAllBlogs, getBlogs } from "@/lib/firebase/blogs";
 import React, { useEffect, useState } from "react";
 import ArticleCard from "./_UI/ArticleCard";
-
+// Admin Page
 const Page = () => {
   const [posts, setPosts] = useState([]);
   const [reload, setReload] = useState<any>(null);
