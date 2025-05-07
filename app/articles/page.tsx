@@ -4,7 +4,7 @@ import { getAllBlogs } from "@/lib/firebase/blogs";
 import { PostType } from "@/lib/posts";
 import React from "react";
 export const metadata = {
-  title: "All Articles - Hazrat Ali Problem Solving Website",
+  title: "All Articles - Hazrat Ali Problem Solving",
   description: "Read All Articles Hazrat Ali Problem Solving Website.",
 };
 
