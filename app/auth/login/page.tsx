@@ -3,7 +3,7 @@ import Link from "next/link";
 import Social from "../Social"
 import { signIn } from "@/lib/firebase/authService";
 import toast from "react-hot-toast";
-
+// login Function
 export default function Example() {
   const handleLogin = async (e: any) => {
     e.preventDefault();
