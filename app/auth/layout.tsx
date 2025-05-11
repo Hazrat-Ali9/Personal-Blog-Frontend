@@ -6,5 +6,5 @@ export const metadata = {
 const layout = ({ children }: { children: React.ReactNode }) => {
   return children;
 };
-
+// sign up Layout
 export default layout;
