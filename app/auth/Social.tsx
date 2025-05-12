@@ -1,7 +1,7 @@
 import { googleLogin } from "@/lib/firebase/authService";
 import React from "react";
 import toast from "react-hot-toast";
-
+// Social login
 const Social = () => {
   const login = async () => {
     try {
