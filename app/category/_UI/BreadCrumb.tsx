@@ -2,7 +2,7 @@
 import { Category, categorys } from "@/lib/categorys";
 import Link from "next/link";
 import React from "react";
-
+// Bread Crumb
 const BreadCrumb = ({ category: ctg }: { category: Category }) => {
   return (
     <div className="py-5 bg-gray-800 px-5 text-white">
