@@ -14,5 +14,5 @@ const page = () => {
     </div>
   );
 };
-
+// Catagory page
 export default page;
