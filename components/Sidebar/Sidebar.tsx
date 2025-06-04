@@ -7,7 +7,7 @@ import { Category, categorys } from "@/lib/categorys";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-// Sidebar 
+// Sidebar Card
 const Sidebar = () => {
   const router = useRouter();
   return (
