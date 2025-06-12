@@ -12,7 +12,7 @@ import {
 import { db } from "@/lib/firebase/firebase.init";
 
 const USERS = "users";
-// # User ts 
+// User ts 
 export const addUser = async (data: any) => {
   try {
     const docRef = await addDoc(collection(db, USERS), data);
