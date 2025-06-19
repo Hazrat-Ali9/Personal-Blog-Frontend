@@ -84,4 +84,4 @@ export interface Category {
   image?: string;
 }
 
-// Catagory
+// Catagory Ts
