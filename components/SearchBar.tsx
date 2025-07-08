@@ -1,9 +1,8 @@
 "use client";
-// Search Bar Tsx
 import { Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import React from "react";
-
+// Search Bar Tsx
 const SearchBar = () => {
   const [searchQuery, setSearchQuery] = React.useState("");
   const router = useRouter();
