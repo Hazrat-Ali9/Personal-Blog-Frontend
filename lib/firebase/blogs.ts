@@ -28,7 +28,7 @@ export async function addBlog(data: any) {
     throw error;
   }
 }
-
+// Blog ts
 export async function getBlogs(max?: number, lastDoc?: any): Promise<any> {
   try {
     const maxLimit = max || 10; // Number of blogs per page
