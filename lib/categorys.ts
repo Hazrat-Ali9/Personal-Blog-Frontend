@@ -84,3 +84,4 @@ export interface Category {
   image?: string;
 }
 
+// Catagory js
