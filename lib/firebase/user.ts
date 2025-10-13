@@ -12,7 +12,7 @@ import {
 import { db } from "@/lib/firebase/firebase.init";
 
 const USERS = "users";
-// User Ts 
+
 export const addUser = async (data: any) => {
   try {
     const docRef = await addDoc(collection(db, USERS), data);
@@ -61,3 +61,4 @@ export const updateUser = async (uid: string, data: any) => {
     throw error;
   }
 };
+// User Ts 
