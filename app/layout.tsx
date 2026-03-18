@@ -17,13 +17,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "Hazrat Ali - Blogs Website",
+  title: "Hazrat Ali Blogs",
   description:
     "Hazrat Ali is a platform for aspiring problem solvers and developers to sharpen their coding skills.",
   openGraph: {
-    title: "Hazrat Ali - Blogs Website",
+    title: "Hazrat Ali Blogs",
     description:
-      "Join Hazrat Ali  - Blogs Website to improve your problem-Solving skills and coding expertise.",
+      "Join Hazrat Ali Blogs Website to improve your problem-Solving skills and coding expertise.",
     images: [
       {
         url: "/images/hazrat-ali.png", // Ensure this file exists in the `public/` folder
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hazrat Ali - Blogs Website",
+    title: "Hazrat Ali - Blogs",
     description:
       "Join Hazrat Ali - Blogs Website to improve your problem-Solving skills and coding expertise.",
     images: [

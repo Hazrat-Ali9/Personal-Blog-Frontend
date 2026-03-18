@@ -19,6 +19,10 @@ const page = () => {
     "/achivement/12.jpeg",
     "/achivement/13.jpeg",
     "/achivement/11.jpeg",
+    "/achivement/11.jpeg",
+    
+    
+    
   ];
   return (
     <div className="max-w-7xl mx-auto py-10 px-5">
