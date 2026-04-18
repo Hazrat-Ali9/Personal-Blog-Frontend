@@ -57,4 +57,4 @@ jobs:
 
       - name: Trigger dokploy redeploy
         run: |
-          curl -X GET https://xxxxx
+          curl -X GET https://dokploy.hazratali.dev/api/deploy/rCrRObDeX9szewY1as8jB
